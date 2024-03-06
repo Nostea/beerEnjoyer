@@ -1,0 +1,99 @@
+@font-face {
+  font-family: Roboto Slab;
+  src: url(../public/font/RobotoSlab-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-family: Roboto Slab, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  --fontsize-regular: 1.6rem;
+  --accent-color: #ffca41;
+  --font-color-black: #333333;
+  --font-color-light: #ffffff;
+  --font-color-gray: #888888;
+  --padding: 2vh 4vw;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding: var(--padding);
+}
+
+html {
+  font-size: 62.5%;
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  font-size: var(--fontsize-regular);
+  font-weight: 500;
+  color: var(--accent-color);
+  text-decoration: inherit;
+}
+a:hover {
+  color: var(--accent-color);
+}
+
+h1 {
+  font-size: 3.2rem;
+  font-weight: 800;
+}
+
+h2 {
+  font-size: 2.6rem;
+  font-weight: 600;
+}
+
+p {
+  font-size: var(--fontsize-regular);
+  font-weight: 400;
+  color: var(--font-color-black);
+  padding-bottom: 1.6rem;
+}
+
+span {
+  font-size: var(--fontsize-regular);
+  padding-bottom: 1rem;
+}
+
+.extra-detail {
+  color: var(--font-color-gray);
+  font-size: 1.4rem;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: var(--fontsize-regular);
+  font-weight: 500;
+  color: var(--font-color-light);
+  background-color: var(--accent-color);
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #ffa200;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.back-button {
+  fill: var(--font-color-light);
+  border-radius: 5rem;
+}

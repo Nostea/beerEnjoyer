@@ -1,0 +1,14 @@
+header {
+  width: 100%;
+  position: fixed;
+  top: 93.5%;
+  right: 0;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--accent-color);
+  padding: 1vh 0vw;
+}

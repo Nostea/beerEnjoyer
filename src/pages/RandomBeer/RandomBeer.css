@@ -1,0 +1,25 @@
+.span-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail-page {
+  padding: 2vh 8vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8vh;
+}
+
+.tagline {
+  font-size: 2.2rem;
+  color: var(--accent-color);
+  padding-bottom: 2rem;
+}
+
+.product-img {
+  max-height: 60vh;
+  padding-bottom: 4vh;
+}

@@ -1,0 +1,19 @@
+.beer-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid var(--font-color-black);
+  gap: 4rem;
+  padding-bottom: 4vh;
+}
+
+.beer-card div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 40vw;
+}
+
+.beer-card img {
+  height: 40vw;
+}
